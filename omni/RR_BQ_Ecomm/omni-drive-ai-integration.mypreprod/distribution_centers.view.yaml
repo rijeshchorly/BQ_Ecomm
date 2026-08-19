@@ -1,0 +1,17 @@
+# Reference this view as omni_drive_ai_integration_mypreprod__distribution_centers
+catalog: omni-drive-ai-integration
+schema: mypreprod
+table_name: distribution_centers
+
+dimensions:
+  name: {}
+  latitude: {}
+  longitude: {}
+
+  id:
+    format: ID
+    primary_key: true
+
+measures:
+  count:
+    aggregate_type: count

@@ -1,0 +1,32 @@
+# Reference this view as omni_drive_ai_integration_mypreprod__order_items
+catalog: omni-drive-ai-integration
+schema: mypreprod
+table_name: order_items
+
+dimensions:
+  status: {}
+  created_at: {}
+  shipped_at: {}
+  delivered_at: {}
+  returned_at: {}
+  sale_price: {}
+
+  id:
+    format: ID
+    primary_key: true
+
+  order_id:
+    format: ID
+
+  user_id:
+    format: ID
+
+  product_id:
+    format: ID
+
+  inventory_item_id:
+    format: ID
+
+measures:
+  count:
+    aggregate_type: count

@@ -1,0 +1,24 @@
+# Reference this view as omni_drive_ai_integration_mypreprod__products
+catalog: omni-drive-ai-integration
+schema: mypreprod
+table_name: products
+
+dimensions:
+  cost: {}
+  category: {}
+  name: {}
+  brand: {}
+  retail_price: {}
+  department: {}
+  sku: {}
+
+  id:
+    format: ID
+    primary_key: true
+
+  distribution_center_id:
+    format: ID
+
+measures:
+  count:
+    aggregate_type: count

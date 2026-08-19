@@ -1,0 +1,28 @@
+# Reference this view as omni_drive_ai_integration_mypreprod__users
+catalog: omni-drive-ai-integration
+schema: mypreprod
+table_name: users
+
+dimensions:
+  first_name: {}
+  last_name: {}
+  email: {}
+  age: {}
+  gender: {}
+  state: {}
+  street_address: {}
+  postal_code: {}
+  city: {}
+  country: {}
+  latitude: {}
+  longitude: {}
+  traffic_source: {}
+  created_at: {}
+
+  id:
+    format: ID
+    primary_key: true
+
+measures:
+  count:
+    aggregate_type: count
