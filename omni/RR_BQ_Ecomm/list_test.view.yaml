@@ -1,4 +1,0 @@
-# Reference this view as list_test
-dimensions:
-  tags:
-    sql: tags
