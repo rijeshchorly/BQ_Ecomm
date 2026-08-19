@@ -3,6 +3,8 @@ catalog: omni-drive-ai-integration
 schema: mypreprod
 table_name: order_items
 
+# committing a view
+
 dimensions:
   status: {}
   created_at: {}
